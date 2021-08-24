@@ -9,9 +9,9 @@
 
 F10 = delete cookies
 
-K = Restart application in fullscreen borderless
+F11 = Restart application in fullscreen borderless
 
-L = Restart application in fullscreen borderless with taskbar
+F12 = Restart application in fullscreen borderless with taskbar
 
 Other info:
 
