@@ -9,7 +9,10 @@
 
 F10 = delete cookies
 
-UP = Restart application in fullscreen borderless
+K = Restart application in fullscreen borderless
 
-Down = Restart application in fullscreen borderless with taskbar
+L = Restart application in fullscreen borderless with taskbar
 
+Other info:
+
+To hide the ESC button notification from showing up, hold right mouse button for 5 sec untill notification disappear. This is a chromium feature that will be hidden in a later release.
