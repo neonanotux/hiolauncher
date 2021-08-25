@@ -18,7 +18,7 @@ F12 = Restart application in fullscreen borderless with taskbar
 
 ### Other info:
 
-Hordes.io is a browser game and uses cookies to save ingame settings, therefore you might have to redo your ingame preferances.
+Hordes.io is a browser game and uses cookies to save ingame settings, therefore you might have to redo your ingame preferances when starting this app for the first time.
 
 To hide the ESC button notification from showing up, hold right mouse button for 5 sec untill notification disappear. This is a chromium feature that I will be hiding in a later release.
 
