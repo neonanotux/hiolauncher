@@ -10,11 +10,11 @@ Due to security reasons, never download HIO Launcher from another source than th
  
 ### Keybinds:
 
+ESC = exit application
+
 F10 = delete cookies (remove account auto login)
 
-F11 = Restart application in fullscreen borderless
-
-F12 = Restart application in fullscreen borderless with taskbar
+F11 = toggle borderless fullscreen with or without taskbar
 
 ### Other info:
 
