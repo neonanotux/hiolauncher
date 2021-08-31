@@ -4,12 +4,18 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:hiolauncher2"
-        xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" x:Class="hiolauncher2.MainWindow"
+        xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" x:Name="Form1" x:Class="hiolauncher2.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="grid1">
+        Title="HIO Launcher" Height="450" Width="800" KeyDown="Form1_KeyDown" Background="Black" Opacity="1">
+    <Grid x:Name="grid1" Initialized="grid1_Initialized" Opacity="0.5">
 
-        <Wpf:WebView2 x:Name="ww2" Source="http://hordes.io/play" CoreWebView2InitializationCompleted="ww2_CoreWebView2InitializationCompleted" KeyDown="ww2_KeyDown" Panel.ZIndex="1"/>
+        <Wpf:WebView2 x:Name="ww2" Visibility="Collapsed" Source="http://hordes.io/play" CoreWebView2InitializationCompleted="ww2_CoreWebView2InitializationCompleted" KeyDown="ww2_KeyDown" Panel.ZIndex="3"/>
+
+        <Viewbox x:Name="vb1">
+            
+            <TextBlock x:Name="tb1" Text="HIO Launcher v.2.1 - press space to continue - press enter for readme" Height="15" Panel.ZIndex="999" Background="Black" Opacity="0.7" Foreground="White" FontSize="0.4" Width="30" TextAlignment="Center" VerticalAlignment="Center" ClipToBounds="True" />
+        </Viewbox>
 
     </Grid>
+
 </Window>
