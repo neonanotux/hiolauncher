@@ -12,6 +12,8 @@ Due to security reasons, never download HIO Launcher from another source than th
 
 ESC = exit application
 
+F5 = refresh browser window
+
 F10 = delete cookies (remove account auto login)
 
 F11 = toggle borderless fullscreen with or without taskbar
